@@ -42,9 +42,9 @@ const App = () => {
       {indianCities.map((city, index) => (
         <li key={index}>{city.name}</li>
       ))}
+      
     </ol>
-               {
-               /* Do not remove the main div */}
+               
     </div>
   );
 }
