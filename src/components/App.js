@@ -40,7 +40,7 @@ const App = () => {
     <h1>Indian Cities</h1>
     <ol>
       {indianCities.map((city, index) => (
-        <li key={index}>{city.name}</li>
+        <li key={`location${index + 1}`}>{city.name}</li>
       ))}
       
     </ol>
